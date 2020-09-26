@@ -31,7 +31,9 @@ export class _Blank extends React.Component {
         date={this.state.Datepicker_5}
         onSelect={nextValue => this.setState({ Datepicker_5: nextValue })}
       />
-      <TouchableOpacity onPress={() => this.props.navigation.navigate("")}>
+      <TouchableOpacity
+        onPress={() => this.props.navigation.navigate("BlankScreen1112316")}
+      >
         <Button
           textStyle={{
             fontSize: 12,
